@@ -26,6 +26,7 @@ int main(void)
     lv_example_label();
 
     while (1) {
+        printf("Testing GitHub\n");
         lv_task_handler();
         k_sleep(K_MSEC(10));
     }
