@@ -1,0 +1,69 @@
+I: Cannot enable trigger without drdy-gpios
+*** Booting Zephyr OS build v3.6.0-4561-g8c8e2f6243f1 ***
+Running TESTSUITE adc_tests
+===================================================================
+START - test_adc_read_1_66v
+ADC value: 1261
+Expected range: [956, 1774]
+PASS - test_adc_read_1_66v in 0.005 seconds
+===================================================================
+TESTSUITE adc_tests succeeded
+Running TESTSUITE embsys330_fp_tests
+===================================================================
+START - test_assert
+PASS - test_assert in 0.001 seconds
+===================================================================
+START - test_counter
+PASS - test_counter in 0.001 seconds
+===================================================================
+TESTSUITE embsys330_fp_tests succeeded
+Running TESTSUITE pwm_tests
+===================================================================
+START - test_pwm_100khz_50_duty
+PWM output on TIM2_CH1 (PA5) should have:
+Frequency: 100kHz, Duty Cycle: 50%
+PASS - test_pwm_100khz_50_duty in 0.107 seconds
+===================================================================
+TESTSUITE pwm_tests succeeded
+Running TESTSUITE sensors_hts221
+===================================================================
+START - test_hts221_humidity
+PASS - test_hts221_humidity in 0.001 seconds
+===================================================================
+START - test_hts221_temperature
+PASS - test_hts221_temperature in 0.001 seconds
+===================================================================
+TESTSUITE sensors_hts221 succeeded
+Running TESTSUITE sensors_vl5310x
+===================================================================
+START - test_vl53l0x_distance
+Measured Distance: 42
+Acceptable Distance: [20,50]
+PASS - test_vl53l0x_distance in 0.039 seconds
+===================================================================
+TESTSUITE sensors_vl5310x succeeded
+Running TESTSUITE tim15_tests
+===================================================================
+START - test_tim15_start_stop
+PASS - test_tim15_start_stop in 2.002 seconds
+===================================================================
+TESTSUITE tim15_tests succeeded
+------ TESTSUITE SUMMARY START ------
+SUITE PASS - 100.00% [adc_tests]: pass = 1, fail = 0, skip = 0, total = 1 duration = 0.005 seconds
+- PASS - [adc_tests.test_adc_read_1_66v] duration = 0.005 seconds
+SUITE PASS - 100.00% [embsys330_fp_tests]: pass = 2, fail = 0, skip = 0, total = 2 duration = 0.002 seconds
+- PASS - [embsys330_fp_tests.test_assert] duration = 0.001 seconds
+- PASS - [embsys330_fp_tests.test_counter] duration = 0.001 seconds
+SUITE PASS - 100.00% [pwm_tests]: pass = 1, fail = 0, skip = 0, total = 1 duration = 0.107 seconds
+- PASS - [pwm_tests.test_pwm_100khz_50_duty] duration = 0.107 seconds
+SUITE PASS - 100.00% [sensors_hts221]: pass = 2, fail = 0, skip = 0, total = 2 duration = 0.002 seconds
+- PASS - [sensors_hts221.test_hts221_humidity] duration = 0.001 seconds
+- PASS - [sensors_hts221.test_hts221_temperature] duration = 0.001 seconds
+SUITE PASS - 100.00% [sensors_vl5310x]: pass = 1, fail = 0, skip = 0, total = 1 duration = 0.039 seconds
+- PASS - [sensors_vl5310x.test_vl53l0x_distance] duration = 0.039 seconds
+SUITE PASS - 100.00% [tim15_tests]: pass = 1, fail = 0, skip = 0, total = 1 duration = 2.002 seconds
+- PASS - [tim15_tests.test_tim15_start_stop] duration = 2.002 seconds
+------ TESTSUITE SUMMARY END ------
+===================================================================
+RunID: 5d89822795915487fbfc6755f611c063
+PROJECT EXECUTION SUCCESSFUL

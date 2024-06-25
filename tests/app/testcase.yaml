@@ -1,0 +1,31 @@
+common:
+  # integration_platforms:
+  #   - native_sim
+  tags:
+    - embsys330_fp_tests
+    - sensors_hts221
+    - sensors_vl5310x
+    - adc_tests
+    - pwm_tests
+tests:
+  sample.testing.embsys330_fp_tests: {}
+  sensors.hts221:
+    build_only: false
+    platform_allow: disco_l475_iot1
+    tags: sensors
+  sensors.vl53l0x:
+    build_only: false
+    platform_allow: disco_l475_iot1
+    tags: sensors
+  tim15.basic:
+    build_only: false
+    platform_allow: disco_l475_iot1
+    tags: timer
+  adc.basic:
+    build_only: false
+    platform_allow: disco_l475_iot1
+    tags: adc
+  tim2.tim2_pwm2:
+    build_only: false
+    platform_allow: disco_l475_iot1
+    tags: pwm

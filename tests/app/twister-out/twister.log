@@ -1,0 +1,35 @@
+2024-06-17 08:27:51,649 - twister - INFO - Using Ninja..
+2024-06-17 08:27:51,787 - twister - INFO - Zephyr version: v3.6.0-4561-g8c8e2f6243f1
+2024-06-17 08:27:51,818 - twister - DEBUG - Running cmake script C:\zephyrproject\zephyr\cmake\verify-toolchain.cmake
+2024-06-17 08:27:51,820 - twister - DEBUG - Calling cmake: ['C:\\Program Files\\CMake\\bin\\cmake.EXE', '-DFORMAT=json', '-P', 'C:\\zephyrproject\\zephyr\\cmake\\verify-toolchain.cmake']
+2024-06-17 08:27:52,300 - twister - DEBUG - Finished running C:\zephyrproject\zephyr\cmake\verify-toolchain.cmake
+2024-06-17 08:27:52,301 - twister - INFO - Using 'zephyr' toolchain.
+2024-06-17 08:27:52,384 - twister - DEBUG - Reading test case configuration files under C:\zephyrproject\embsys-330-sp24-final-project-castrorazo\tests\app...
+2024-06-17 08:27:52,384 - twister - DEBUG - Found possible testsuite in C:\zephyrproject\embsys-330-sp24-final-project-castrorazo\tests\app
+2024-06-17 08:27:52,416 - twister - DEBUG - No duplicates found.
+2024-06-17 08:27:52,543 - twister - DEBUG - Reading platform configuration files under ['C:\\zephyrproject\\zephyr/boards', 'C:\\zephyrproject\\zephyr/subsys/testsuite/boards']...
+2024-06-17 08:27:52,578 - twister - DEBUG - platform filter: ['disco_l475_iot1']
+2024-06-17 08:27:52,578 - twister - DEBUG -   vendor filter: []
+2024-06-17 08:27:52,578 - twister - DEBUG -     arch_filter: None
+2024-06-17 08:27:52,578 - twister - DEBUG -      tag_filter: None
+2024-06-17 08:27:52,578 - twister - DEBUG -     exclude_tag: None
+2024-06-17 08:27:52,578 - twister - INFO - Building initial testsuite list...
+2024-06-17 08:27:52,581 - twister - INFO - Writing JSON report C:\zephyrproject\embsys-330-sp24-final-project-castrorazo\tests\app\twister-out\testplan.json
+2024-06-17 08:27:52,666 - twister - INFO - Adding tasks to the queue...
+2024-06-17 08:27:52,666 - twister - DEBUG - adding disco_l475_iot1\sample.testing.embsys330_fp_tests
+2024-06-17 08:27:52,870 - twister - DEBUG - adding disco_l475_iot1\sensors.hts221
+2024-06-17 08:27:52,870 - twister - DEBUG - adding disco_l475_iot1\sensors.vl53l0x
+2024-06-17 08:27:52,871 - twister - DEBUG - adding disco_l475_iot1\tim15.basic
+2024-06-17 08:27:52,871 - twister - DEBUG - adding disco_l475_iot1\adc.basic
+2024-06-17 08:27:52,871 - twister - DEBUG - adding disco_l475_iot1\tim2.tim2_pwm2
+2024-06-17 08:27:52,871 - twister - INFO - Added initial list of jobs to queue
+2024-06-17 08:27:54,359 - twister - DEBUG - Launched 20 jobs
+2024-06-17 08:29:58,905 - twister - INFO - 6 test scenarios (6 test instances) selected, 0 configurations skipped (0 by static filter, 0 at runtime).
+2024-06-17 08:29:58,905 - twister - INFO - [32m6 of 6[39m test configurations passed (100.00%), [39m0[39m failed, [39m0[39m errored, 0 skipped with [39m0[39m warnings in 127.26 seconds
+2024-06-17 08:29:58,909 - twister - INFO - In total 48 test cases were executed, 0 skipped on 1 out of total 1 platforms (100.00%)
+2024-06-17 08:29:58,909 - twister - INFO - [32m6[39m test configurations executed on platforms, [31m0[39m test configurations were only built.
+2024-06-17 08:29:58,914 - twister - INFO - Saving reports...
+2024-06-17 08:29:58,914 - twister - INFO - Writing JSON report C:\zephyrproject\embsys-330-sp24-final-project-castrorazo\tests\app\twister-out\twister.json
+2024-06-17 08:29:58,916 - twister - INFO - Writing xunit report C:\zephyrproject\embsys-330-sp24-final-project-castrorazo\tests\app\twister-out\twister.xml...
+2024-06-17 08:29:58,923 - twister - INFO - Writing xunit report C:\zephyrproject\embsys-330-sp24-final-project-castrorazo\tests\app\twister-out\twister_report.xml...
+2024-06-17 08:29:58,961 - twister - INFO - Run completed
