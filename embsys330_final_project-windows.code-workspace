@@ -34,8 +34,8 @@
 		"cmake.configureOnOpen": false,
 
 		// IntelliSense
-		"C_Cpp.default.compilerPath": "C:/Program Files/zephyr-sdk-0.16.5-1/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc",
-		"C_Cpp.default.compileCommands": "${workspaceFolder:Project}/build/compile_commands.json",
+		"C_Cpp.default.compilerPath": "C:/Users/ko1j983/zephyr-sdk-0.16.8/arm-zephyr-eabi/bin/arm-zephyr-eabi-gcc",
+		"C_Cpp.default.compileCommands": "C:/Users/ko1j983/zephyrproject/zephyr/build/compile_commands.json",
 
 		// File Associations
 		"files.associations": {
@@ -63,7 +63,7 @@
 					"kind": "build",
 					"isDefault": true
 				},
-				"command": "${userHome}/zephyrproject/.venv/Scripts/west",
+				"command": "C:/Users/ko1j983/zephyrproject/.venv/Scripts/west",
 				"args": [
 					"build",
 					"-p",
@@ -74,7 +74,7 @@
 				"problemMatcher": [
 					"$gcc"
 				],
-				"options": {"cwd": "${workspaceFolder:Project}"}
+				"options": {"cwd": "C:/Users/ko1j983/zephyrproject/zephyr"}
 			},
 			{
 				"label": "West Pristine Build",
@@ -83,7 +83,7 @@
 					"kind": "build",
 					"isDefault": false
 				},
-				"command": "${userHome}/zephyrproject/.venv/Scripts/west",
+				"command": "C:/Users/ko1j983/zephyrproject/.venv/Scripts/west",
 				"args": [
 					"build",
 					"-p",
@@ -94,7 +94,7 @@
 				"problemMatcher": [
 					"$gcc"
 				],
-				"options": {"cwd": "${workspaceFolder:Project}"}
+				"options": {"cwd": "C:/Users/ko1j983/zephyrproject/zephyr"}
 			},
 			{
 				"label": "West Configurable Build",
@@ -102,7 +102,7 @@
 				"group": {
 					"kind": "build",
 				},
-				"command": "${userHome}/zephyrproject/.venv/Scripts/west",
+				"command": "C:/Users/ko1j983/zephyrproject/.venv/Scripts/west",
 				"args": [
 					"build",
 					"-p",
@@ -117,7 +117,7 @@
 			{
 				"label": "West Flash",
 				"type": "shell",
-				"command": "${userHome}/zephyrproject/.venv/Scripts/west",
+				"command": "C:/Users/ko1j983/zephyrproject/.venv/Scripts/west",
 				"args": [
 					"flash",
 					"--runner",
@@ -154,33 +154,33 @@
 			{
 				"name": "Launch",
 				"device": "MIMXRT1060",
-				"cwd": "${workspaceFolder:Project}",
-				"executable": "build/zephyr/zephyr.elf",
+				"cwd": "C:/Users/ko1j983/zephyrproject/zephyr",
+				"executable": "C:/Users/ko1j983/zephyrproject/zephyr/build/zephyr/zephyr.elf",
 				"request": "launch",
 				"type": "cortex-debug",
 				"runToEntryPoint": "main",
 				"servertype": "pyocd",
-				"gdbPath": "C:/Program Files/zephyr-sdk-0.16.5-1/arm-zephyr-eabi/bin/arm-zephyr-eabi-gdb",
+				"gdbPath": "C:/Users/ko1j983/zephyr-sdk-0.16.8/arm-zephyr-eabi/bin/arm-zephyr-eabi-gdb",
 				"preLaunchTask": "West Build",
 				"rtos": "auto",
 				"targetId": "mimxrt1060",
-				"pyocdPath": "C:/Python311/Scripts/pyocd",
-				"svdFile": "C:/zephyrproject/zephyr/dts/arm/nxp/nxp_rt1060.svd"
+				"pyocdPath": "C:/Users/ko1j983/AppData/Local/Programs/Python/Python311/Scripts/pyocd",
+				"svdFile": "C:/Users/ko1j983/zephyrproject/zephyr/dts/arm/nxp/nxp_rt1060.svd"
 			},
 			{
 				"name": "Attach",
 				"device": "MIMXRT1060",
-				"cwd": "${workspaceFolder:Project}",
-				"executable": "build/zephyr/zephyr.elf",
+				"cwd": "C:/Users/ko1j983/zephyrproject/zephyr",
+				"executable": "C:/Users/ko1j983/zephyrproject/zephyr/build/zephyr/zephyr.elf",
 				"request": "attach",
 				"type": "cortex-debug",
 				"runToEntryPoint": "main",
 				"servertype": "jlink",
-				"gdbPath": "C:/Program Files/zephyr-sdk-0.16.5-1/arm-zephyr-eabi/bin/arm-zephyr-eabi-gdb",
+				"gdbPath": "C:/Users/ko1j983/zephyr-sdk-0.16.8/arm-zephyr-eabi/bin/arm-zephyr-eabi-gdb",
 				"rtos": "auto",
 				"targetId": "mimxrt1060",
-				"pyocdPath": "C:/Python311/Scripts/pyocd",
-				"svdFile": "C:/zephyrproject/zephyr/dts/arm/nxp/nxp_rt1060.svd"
+				"pyocdPath": "C:/Users/ko1j983/AppData/Local/Programs/Python/Python311/Scripts/pyocd",
+				"svdFile": "C:/Users/ko1j983/zephyrproject/zephyr/dts/arm/nxp/nxp_rt1060.svd"
 			},
 		]
 	},
